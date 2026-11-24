@@ -31,7 +31,9 @@ Procesamiento_Datos/
     ├── BuenoSalario_1055.ipynb
     ├── requirements.txt
     └── data/
-        └── README.md
+        ├── README.md
+        ├── adult.data
+        └── adult.test
 ```
 
 ## Entorno
