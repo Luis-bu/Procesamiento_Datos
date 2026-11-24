@@ -1,0 +1,46 @@
+# Procesamiento de Datos a Gran Escala — Lab 01: Ejercicios de Python
+
+**Autor:** Luis Bueno
+**Universidad:** Pontificia Universidad Javeriana — Bogotá
+**Programa:** Ingeniería de Sistemas — VI Semestre
+**Contacto:** bu_luis@javeriana.edu.co
+**GitHub:** [github.com/Luis-bu](https://github.com/Luis-bu)
+
+## Presentación
+
+Este repositorio contiene la resolución del taller de fundamentos de Python (Lab 01): cadenas,
+tuplas, listas, conjuntos, diccionarios, condiciones, bucles, funciones y clases, además de un
+cuaderno bono con retos cortos de programación.
+
+Cada cuaderno tiene mis datos al inicio, notas personales explicando lo que entendí en cada
+sección, los ejercicios resueltos con comentarios propios, y una conclusión al final.
+
+## Contenido del repositorio
+
+| # | Cuaderno | Tema | Rúbrica |
+|---|----------|------|---------|
+| 01 | `01-Python-Cadenas.ipynb` | Cadenas (strings): indexación, slicing, stride, escape, métodos | 10% |
+| 02 | `02-Python-Tuplas.ipynb` | Tuplas: indexación, concatenación, slicing, ordenamiento, anidación | 10% |
+| 03 | `03-Python-Listas.ipynb` | Listas: operaciones, mutabilidad, copiado vs. clonación | 10% |
+| 04 | `04-Python-Conjuntos.ipynb` | Conjuntos: unión, intersección, diferencia, subconjuntos | 10% |
+| 05 | `05-Python-Diccionarios.ipynb` | Diccionarios: llaves, valores, agregar/borrar entradas | 10% |
+| 06 | `06-Python-Condiciones.ipynb` | Condiciones: comparación, if/elif/else, operadores lógicos | 10% |
+| 07 | `07-Python-Bucles.ipynb` | Bucles: range, for, while | 10% |
+| 08 | `08-Python-Funciones.ipynb` | Funciones: parámetros, retorno, scope, variables globales | 10% |
+| 09 | `09-Python-Clases.ipynb` | Clases y objetos: constructor, atributos, métodos + actividad Elipse | 10% |
+| Bono | `Practico_Bono_1.ipynb` | 8 retos cortos de programación con funciones | 5% |
+
+## Cómo ejecutar
+
+1. Clonar el repositorio.
+2. Tener Python 3 y Jupyter instalados (`pip install notebook matplotlib`).
+3. Abrir cualquier cuaderno con `jupyter notebook` y ejecutar todas las celdas en orden
+   (`Kernel > Restart & Run All`).
+
+## Conclusión general
+
+Este taller me sirvió para repasar las estructuras de datos base de Python (mutable vs.
+inmutable, ordenada vs. no ordenada, indexada por posición vs. por llave) y para practicar
+lógica de control con condicionales, bucles y funciones. Varios de estos conceptos los aplico
+directamente en mis workflows de automatización con n8n, así que este repositorio también me
+sirve como referencia rápida a futuro.

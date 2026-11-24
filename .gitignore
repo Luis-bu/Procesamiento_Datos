@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark / Hadoop (salidas locales)
+spark-warehouse/
+metastore_db/
+derby.log
+*/modelo_*/
+
+# Datos: se descargan de la fuente original (ver data/README.md de cada taller)
+*/data/*
+!*/data/README.md
+
+# Sistema
+.DS_Store
+Thumbs.db
