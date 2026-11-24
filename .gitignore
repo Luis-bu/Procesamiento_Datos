@@ -13,9 +13,9 @@ metastore_db/
 derby.log
 */modelo_*/
 
-# Datos: se descargan de la fuente original (ver data/README.md de cada taller)
-*/data/*
-!*/data/README.md
+# Datos pesados o generados (los datasets pequeños con licencia abierta sí se versionan en data/)
+*.parquet
+*.orc
 
 # Sistema
 .DS_Store

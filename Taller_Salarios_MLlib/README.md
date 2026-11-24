@@ -52,7 +52,7 @@ Las secciones siguen el orden de la rúbrica del taller:
 ## Cómo ejecutarlo
 
 **En el clúster del curso (como se entregó):**
-1. Descargar `adult.data` y `adult.test` desde UCI (ver [`data/README.md`](data/README.md)).
+1. Tomar `adult.data` y `adult.test` de la carpeta [`data/`](data/) (o del zip oficial de UCI).
 2. Subir el cuaderno y los dos archivos a la misma carpeta de Jupyter.
 3. Abrir el cuaderno con el kernel `rapKernel_v4` y ejecutar todas las celdas. Las primeras celdas copian los datos a HDFS (`/Formatos1055/BuenoLuis/Salario`) y la sección 5.5 guarda allí el modelo final.
 
