@@ -1,0 +1,9 @@
+# Versiones usadas para probar el cuaderno fuera del clúster.
+# En el clúster del curso, Spark y Hadoop ya están instalados (findspark apunta a /mnt/sda1/Cluster/Spark).
+pyspark==3.5.5
+findspark
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
